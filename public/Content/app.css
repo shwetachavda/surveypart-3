@@ -1,0 +1,182 @@
+/* custom style sheet */
+
+/* custom style sheet */
+.navbar-brand {
+    float: left;
+    height: 70px;
+    padding: 15px;
+    line-height: 20px;
+}
+/*css for user and survey list*/
+.listings{
+    min-height: 400px;
+}
+
+.listings ul{
+    padding:0px;
+}
+.listings ul li {
+    padding: 6px 0px;
+    font-size: 18px;
+}
+/*end of css for user and survey list*/
+h2{
+    margin-bottom: 50px;
+}
+.top{
+    margin-top: 40px;
+}
+  /*css for navbar*/
+    .navbar-inverse  
+    { 
+       background: #421313; 
+       border-color:  #421313;
+       border-spacing: none;
+      
+       color: #FFFFFF;
+     }
+      .navbar-brand{
+     top: -10px;
+ }   
+ .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+.nav{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+  .navbar-nav>li>a {
+      padding: 25px 20px;
+      font-size: 16px;
+  }
+.navbar-text{
+  padding: 9px 8px;
+  font-size: 16px;  
+  color:#fff;
+ }
+ /*end of css for navbar*/
+ 
+ 
+.red{
+    color: #421313;
+}
+.white{
+    color: #fff;
+}
+/*css for button color*/
+.btn btn-primary{
+    background-color: #000;
+
+}
+body { 
+    background: #FED8A8;
+    color: #251312;
+    
+    }
+    
+   .text{
+       color: #251312;
+   }
+    
+
+
+/* Section styles  */
+            section {
+        padding-top: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing:2px;
+        font-size:1.4em;
+        color:#E5EFFF;
+    }
+
+/* Paragraph   */
+.aboutus p{
+    padding-top: 35px;
+    color: #421313;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin: auto;
+    text-align: justify;
+    font-size: 22px;
+    width: 80%;
+    position: relative;
+    }
+  .home p{
+    color: #421313;
+    font-weight: 200;
+    font-size: 20px;
+
+  }
+
+/* Links */ 
+ p a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 22px;
+}
+
+ p a:visited {
+    color: white;
+    text-decoration: none;
+}
+        
+ 
+
+/*css for cards on home page*/
+
+.icon{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.demo-card {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 100px;
+}
+/*css for header tags*/
+h4.title {
+  text-align: center;
+}
+.h2about{
+     top: 90px;
+     right: 550px;
+     text-align: center;
+ }  
+ /*end of css for header tag*/
+ 
+ section {
+        padding-top: 10px;
+        font-family: 'Abel', sans-serif;
+        letter-spacing:2px;
+        font-size:1.4em;
+        color:#E5EFFF;
+        
+    }
+   /*css for font-awesome icons*/ 
+    i {
+        font-size:1.4em;
+        color:#E5EFFF;
+        
+    }
+    /*css for footer*/
+        .footer{
+             background: #421313; 
+             border-color:  #421313;
+             font-weight: bolder;
+             font-size: 20px;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             min-height: 50px;
+             margin-top:40px;
+       
+        }
+

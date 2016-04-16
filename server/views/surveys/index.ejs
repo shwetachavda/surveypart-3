@@ -1,0 +1,46 @@
+<% include ../partials/header.ejs %>
+    <% include ../partials/navbar.ejs %>
+        <main class="container listings">
+            <h1>Surveys</h1>
+
+            <a href="/surveys/add">Add a New Survey</a>
+
+            <a href="/surveys/response">Response</a>
+
+
+            <ul>
+                <% for (var i = 0; i < surveys.length; i++) { %>
+                    <li>
+                        name:
+                        <a href="/surveys/<%= surveys[i]._id %>" title="Edit User">
+                            <%= surveys[i].name %>
+                        </a>
+                    </li>
+                    <li> category:
+                        <%= surveys[i].category %>
+                    </li>
+                    <li> expired:
+                        <%= surveys[i].expired %>
+                    </li>
+                    <li> Short Question 1:
+                        <%= surveys[i].shortQue1 %>
+                    </li>
+                    <li> Short Question 2:
+                        <%= surveys[i].shortQue2 %>
+                    </li>
+                    <li> Short Question 3:
+                        <%= surveys[i].shortQue3 %>
+                    </li>
+                    <li> Short Question 4:
+                        <%= surveys[i].shortQue4 %>
+                    </li>
+                    <li> Short Question 5:
+                        <%= surveys[i].shortQue5 %>
+                            <br>
+                            <hr>
+
+
+                            <% } %>
+            </ul>
+        </main>
+        <% include ../partials/footer.ejs %>

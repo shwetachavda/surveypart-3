@@ -1,0 +1,27 @@
+<% include ../partials/header.ejs %>
+<% include ../partials/navbar.ejs %>
+<main class="container listings">
+    <h1>Users</h1>
+
+    <a href="/users/add">Add a New User</a>
+
+    <ul>
+        <% for (var i = 0; i < users.length; i++) { %>
+            <li>
+                username: 
+                <a href="/users/<%= users[i]._id %>" title="Edit User">
+                    <%= users[i].username %>
+                </a>
+           </li>
+            <li>password: <%= users[i].password %></li>
+            <li> email: <%= users[i].email %></li>
+            <li> Display Name: <%= users[i].displayName %></li>
+            <li> Created: <%= users[i].created.toDateString() %></li>
+            <li> Updated: <%= users[i].updated.toDateString() %></li>
+            <br>
+            <hr>
+     
+      <% } %>
+    </ul>
+</main>
+<% include ../partials/footer.ejs %>
